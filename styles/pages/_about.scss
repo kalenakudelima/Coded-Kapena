@@ -1,0 +1,78 @@
+#bio01 p {
+    text-align: center;
+    padding: 0 15em 2em 15em;
+    border-bottom: 1px solid #333;
+}
+
+#section02 h2 {
+    padding: 3em 0 0 0;
+    text-align: center;
+    font-family: 'Raleway';
+    color: #333;
+}
+
+.scale-with-grid {
+    width: 95%;
+}
+
+#kellyboy h3, #kapena h3, #kalena h3, #lilo h3 {
+    padding-top: 2em 0;
+    font-size: 2.5em;
+    font-family: 'Raleway';
+}
+
+#kellyboy {
+    padding-top: 5em;
+    padding: 0 15em;
+    font-weight: normal;
+    font-size: .85em;
+}
+
+.kellyboy {
+    padding-top: 1em;
+    width: 30%;
+    float: right;
+}
+
+#kapena {
+    clear: right;
+    padding: 5em 15em;
+    font-weight: normal;
+    font-size: .85em;
+}
+
+.kapena {
+    width: 30%;
+    float: left;
+}
+
+#kalena {
+    clear: left;
+    padding: 5em 15em;
+    font-weight: normal;
+    font-size: .85em;
+}
+
+.kalena {
+    width: 30%;
+    float: right;
+}
+
+#lilo {
+    clear: right;
+    padding: 5em 15em;
+    font-weight: normal;
+    font-size: .85em;
+}
+
+.lilo {
+    width: 30%;
+    float: left;
+}
+
+.size {
+    padding-top: 2em;
+    width: 45%;
+    padding-left: 2em;
+    display: inline-block;
+}

@@ -1,0 +1,119 @@
+/* -------------------- */
+/* BASE CSS */
+/* -------------------- */
+/* TABLE OF CONTENTS
+    1. BASE CSS
+        - RESET
+        - HTML5
+        - BASE TYPOGRAPHY
+            - HEADINGS
+            - PARAGRAPHS
+            - LINKS
+            - LISTS
+        - IMAGES
+        - CLEARFIX
+    2. SITE SPECIFIC CSS
+        - LAYOUT
+        - MEDIA QUERIES
+        - @FONTFACE
+*/
+/* -------------------- */
+
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML5 */
+header, nav, footer, section, article, aside {
+    display: block;
+}
+
+/* BASE TYPOGRAPHY */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%; /* 100% = 16px = 1em */
+    line-height: 1.5em; /* 24px/16px = 1.5em */
+    color: #333;
+}
+
+/* LINKS */
+
+a { color: #fff; }
+a:hover, a:focus { color: #339999; }
+
+/* LISTS */
+
+li {
+    margin-left: 1.875em; /* 30px/16px = 1.875em */
+}
+
+ul li ul, ul li ol, ol li ol, ol li ul {
+    margin-bottom: 0
+}
+
+/* IMAGES */
+
+img.scale-with-grid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CLEARFIX from Chris Coyier at CSS-TRICKS.com */
+
+.group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* SITE SPECIFIC CSS */
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 66.6666em; /* 1200px/18px = 66.6666em  */
+}
+
+.column {
+    padding: 3em 1em;
+    margin: 1em 0;
+    float: left;
+    margin-left: 2%;
+}
+
+.background {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Buttons */
+
+button,
+a.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	display: inline-block;
+	background-color: #808080;
+	color: #fff;
+	padding: .75em 1em;
+	-webkit-border-radius: .32em;
+	-moz-border-radius: .32em;
+	border-radius: .32em;
+	margin-bottom: .5em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1em;
+}
+
+button:hover, a.button:hover {
+	background-color: #39c;
+	color: #fff;
+}

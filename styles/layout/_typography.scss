@@ -1,0 +1,74 @@
+/* HEADINGS
+	Based on a Traditional Typographic Scale
+	48, 36, 24, 21, 18, 16
+    Target Font Size (px) / Base Font Size (px) = XX.XXXXem
+*/
+
+h1 {
+    font-size: 3em; /* 48px/16px = 3em */
+    line-height: 1em;
+}
+h2 {
+    font-size: 2.25em; /* 36px/16px = 2.25em */
+    line-height: 1.1em;
+}
+h3 {
+    font-size: 1.5em; /* 24px/16px = 1.5em */
+    line-height: 1.2em;
+}
+h4 {
+    font-size: 1.3125em; /* 21px/16px = 1.3125em */
+    line-height: 1.3em;
+}
+h5 {
+    font-size: 1.125em; /* 18px/16px = 1.125em */
+    line-height: 1.4em;
+}
+h6 {
+    font-size: 1em; /* 16px/16px = 1em */
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin-bottom: .5em;
+}
+
+/* LAYOUT */
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: #5c494f;
+    font-size: 112.5%; /* Set the base to 18px */
+}
+
+h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+h2 {
+    font-family: 'Raleyway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+h3 {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+h5 {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 25px;
+}

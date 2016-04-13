@@ -1,0 +1,64 @@
+
+/* MEDIA QUERIES */
+
+/* TABLET (Between 768px and 960px) */
+@media only screen and (min-width: 768px) and (max-width: 1240px) {
+
+    body {
+        font-size: 106.25%; /* 17px */
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        padding: 4em;
+    }
+
+}
+
+/* MOBILE (Less than 768px) */
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 100%; /* 16px */
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer #copyright {
+        text-align: center;
+    }
+
+    #home {
+        padding-top: 10em;
+    }
+
+    #mainnav #menu {
+        display: block;
+        color: #fff;
+    }
+
+	#mainnav ul {
+		padding: 1em 0;
+        display: none;
+        width: 100%;
+	}
+
+    #mainnav ul li {
+        display: block;
+    }
+	#mainnav ul li a {
+		float: none;
+        padding: 1em 1.25em;
+	}
+
+
+}

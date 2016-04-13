@@ -1,0 +1,677 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+}
+
+.forms h2 {
+  text-align: center;
+}
+
+.forms div {
+  padding: .5em;
+}
+
+.forms {
+  padding: 6em 0;
+}
+
+.forms label {
+  color: #333;
+  font-size: .85em;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="checkbox"],
+input[type="radio"],
+textarea,
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #D1D1D1;
+  border-radius: .5em;
+  padding: 6px 10px;
+  height: 40px;
+}
+
+input[type="email"]:focus, input[type="email"]:active,
+input[type="number"]:focus,
+input[type="number"]:active,
+input[type="search"]:focus,
+input[type="search"]:active,
+input[type="text"]:focus,
+input[type="text"]:active,
+input[type="tel"]:focus,
+input[type="tel"]:active,
+input[type="url"]:focus,
+input[type="url"]:active,
+input[type="password"]:focus,
+input[type="password"]:active,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active,
+input[type="radio"]:focus,
+input[type="radio"]:active,
+textarea:focus,
+textarea:active,
+select:focus,
+select:active {
+  outline: 0;
+}
+
+textarea {
+  border: 1px solid #D1D1D1;
+  border-radius: .5em;
+  padding: 6px 10px;
+  height: 6em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background: #000;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  border-radius: 0;
+}
+
+input[type="checkbox"]:checked {
+  position: relative;
+  background: transparent;
+}
+
+input[type="checkbox"]:checked::after {
+  margin: 0;
+  padding: 0;
+  content: '\2713';
+  display: block;
+  color: #000;
+  position: absolute;
+  top: -1px;
+  left: 1px;
+}
+
+/* HEADINGS
+	Based on a Traditional Typographic Scale
+	48, 36, 24, 21, 18, 16
+    Target Font Size (px) / Base Font Size (px) = XX.XXXXem
+*/
+h1 {
+  font-size: 3em;
+  /* 48px/16px = 3em */
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 2.25em;
+  /* 36px/16px = 2.25em */
+  line-height: 1.1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  /* 24px/16px = 1.5em */
+  line-height: 1.2em;
+}
+
+h4 {
+  font-size: 1.3125em;
+  /* 21px/16px = 1.3125em */
+  line-height: 1.3em;
+}
+
+h5 {
+  font-size: 1.125em;
+  /* 18px/16px = 1.125em */
+  line-height: 1.4em;
+}
+
+h6 {
+  font-size: 1em;
+  /* 16px/16px = 1em */
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin-bottom: .5em;
+}
+
+/* LAYOUT */
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #5c494f;
+  font-size: 112.5%;
+  /* Set the base to 18px */
+}
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+h2 {
+  font-family: 'Raleyway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+h3 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+h5 {
+  font-family: 'Raleway',sans-serif;
+  font-style: normal;
+  font-weight: 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* -------------------- */
+/* BASE CSS */
+/* -------------------- */
+/* TABLE OF CONTENTS
+    1. BASE CSS
+        - RESET
+        - HTML5
+        - BASE TYPOGRAPHY
+            - HEADINGS
+            - PARAGRAPHS
+            - LINKS
+            - LISTS
+        - IMAGES
+        - CLEARFIX
+    2. SITE SPECIFIC CSS
+        - LAYOUT
+        - MEDIA QUERIES
+        - @FONTFACE
+*/
+/* -------------------- */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 */
+header, nav, footer, section, article, aside {
+  display: block;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  /* 100% = 16px = 1em */
+  line-height: 1.5em;
+  /* 24px/16px = 1.5em */
+  color: #333;
+}
+
+/* LINKS */
+a {
+  color: #fff;
+}
+
+a:hover, a:focus {
+  color: #339999;
+}
+
+/* LISTS */
+li {
+  margin-left: 1.875em;
+  /* 30px/16px = 1.875em */
+}
+
+ul li ul, ul li ol, ol li ol, ol li ul {
+  margin-bottom: 0;
+}
+
+/* IMAGES */
+img.scale-with-grid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CLEARFIX from Chris Coyier at CSS-TRICKS.com */
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* SITE SPECIFIC CSS */
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 66.6666em;
+  /* 1200px/18px = 66.6666em  */
+}
+
+.column {
+  padding: 3em 1em;
+  margin: 1em 0;
+  float: left;
+  margin-left: 2%;
+}
+
+.background {
+  color: #000;
+  background-color: #fff;
+}
+
+/* Buttons */
+button,
+a.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  background-color: #808080;
+  color: #fff;
+  padding: .75em 1em;
+  -webkit-border-radius: .32em;
+  -moz-border-radius: .32em;
+  border-radius: .32em;
+  margin-bottom: .5em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1em;
+}
+
+button:hover, a.button:hover {
+  background-color: #39c;
+  color: #fff;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #333;
+  padding: 0;
+  z-index: 200;
+}
+
+header h1 {
+  padding: .5em;
+  margin-bottom: 0;
+  float: left;
+}
+
+header h1 a {
+  display: block;
+  background-image: url(../images/kapenalogo.png);
+  background-repeat: no-repeat;
+  background-size: 182px 63px;
+  width: 182px;
+  height: 0px;
+  padding-top: 63px;
+  overflow: hidden;
+}
+
+#mainnav #menu {
+  float: right;
+  margin-top: 2em;
+  display: none;
+  color: #fff;
+  padding: .8em 1.5em;
+  cursor: pointer;
+}
+
+#mainnav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#mainnav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+#mainnav ul li {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+#mainnav ul li a {
+  display: block;
+  padding: 2.5em 1.25em;
+  color: #fff;
+}
+
+#mainnav ul li a:hover {
+  color: #339999;
+}
+
+#mainnav li:hover ul {
+  display: block;
+}
+
+#mainnav ul li:hover > ul {
+  display: block;
+}
+
+#mainnav ul li ul {
+  display: none;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  position: absolute;
+}
+
+#mainnav ul li ul li {
+  width: 200px;
+  background-color: #339999;
+}
+
+#mainnav ul li ul li:hover {
+  width: 200px;
+  background-color: #fff;
+  color: #339999;
+}
+
+#mainnav ul li ul a {
+  line-height: 120%;
+}
+
+#mainnav ul li ul:hover {
+  display: relative;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2em 0;
+}
+
+footer img {
+  margin: 0 auto;
+}
+
+footer #copyright {
+  text-align: center;
+  font-size: .5625em;
+  /* 9px / 16px = .5625em; */
+  color: #999;
+}
+
+footer {
+  margin: 0 auto;
+}
+
+#footernav {
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+/* TABLET (Between 768px and 960px) */
+@media only screen and (min-width: 768px) and (max-width: 1240px) {
+  body {
+    font-size: 106.25%;
+    /* 17px */
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  footer {
+    padding: 4em;
+  }
+}
+
+/* MOBILE (Less than 768px) */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 100%;
+    /* 16px */
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  footer #copyright {
+    text-align: center;
+  }
+  #home {
+    padding-top: 10em;
+  }
+  #mainnav #menu {
+    display: block;
+    color: #fff;
+  }
+  #mainnav ul {
+    padding: 1em 0;
+    display: none;
+    width: 100%;
+  }
+  #mainnav ul li {
+    display: block;
+  }
+  #mainnav ul li a {
+    float: none;
+    padding: 1em 1.25em;
+  }
+}
+
+.home {
+  padding-top: 8em;
+  text-align: center;
+}
+
+.home h2 {
+  background-color: #000;
+  color: #fff;
+  border: 5px solid #339999;
+  padding: .5em;
+}
+
+#bio01 p {
+  text-align: center;
+  padding: 0 15em 2em 15em;
+  border-bottom: 1px solid #333;
+}
+
+#section02 h2 {
+  padding: 3em 0 0 0;
+  text-align: center;
+  font-family: 'Raleway';
+  color: #333;
+}
+
+.scale-with-grid {
+  width: 95%;
+}
+
+#kellyboy h3, #kapena h3, #kalena h3, #lilo h3 {
+  padding-top: 2em 0;
+  font-size: 2.5em;
+  font-family: 'Raleway';
+}
+
+#kellyboy {
+  padding-top: 5em;
+  padding: 0 15em;
+  font-weight: normal;
+  font-size: .85em;
+}
+
+.kellyboy {
+  padding-top: 1em;
+  width: 30%;
+  float: right;
+}
+
+#kapena {
+  clear: right;
+  padding: 5em 15em;
+  font-weight: normal;
+  font-size: .85em;
+}
+
+.kapena {
+  width: 30%;
+  float: left;
+}
+
+#kalena {
+  clear: left;
+  padding: 5em 15em;
+  font-weight: normal;
+  font-size: .85em;
+}
+
+.kalena {
+  width: 30%;
+  float: right;
+}
+
+#lilo {
+  clear: right;
+  padding: 5em 15em;
+  font-weight: normal;
+  font-size: .85em;
+}
+
+.lilo {
+  width: 30%;
+  float: left;
+}
+
+.size {
+  padding-top: 2em;
+  width: 45%;
+  padding-left: 2em;
+  display: inline-block;
+}
+
+.local, .tour {
+  text-align: center;
+  padding: 6em 0;
+}
+
+.local h2, .tour h2 {
+  padding-bottom: 1em;
+}
+
+.news {
+  padding-top: 5em;
+}
+
+.news h2 {
+  text-align: center;
+}
+
+.news h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.news h3 a:hover {
+  color: #339999;
+}
+
+.discography h2 {
+  padding-top: 3em;
+}
+
+.discography {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.discography a {
+  color: #339999;
+  text-decoration: none;
+}
+
+.discography a:hover {
+  color: #ccc;
+}
+
+.merchandise h2 {
+  padding-top: 3em;
+}
+
+.merchandise {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.merchandise p a {
+  color: #339999;
+  text-decoration: none;
+}
+
+.merchandise p a:hover {
+  color: #ccc;
+}
+
+button {
+  padding: 6em 0;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.buttonepk {
+  display: block;
+  height: 50px;
+  width: 150px;
+  border: 2px solid #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonepk:hover {
+  border: 2px solid #339999;
+}
+
+.buttonepk a {
+  color: #fff;
+}
