@@ -1,9 +1,21 @@
 .news {
-  padding-top: 5em;
+  padding-top: 10em;
 }
 
 .news h2 {
   text-align: center;
+}
+
+.posts {
+  padding: 2em 0 10em 4em;
+}
+
+.posts img {
+  border: .4em solid #339999;
+}
+
+.posts img:hover {
+  border: .4em solid #333;
 }
 
 .news h3 a {
@@ -13,4 +25,25 @@
 
 .news h3 a:hover {
   color: #339999;
+}
+
+.blog img {
+  padding-top:10em;
+  width: 50%;
+  margin: auto;
+}
+
+.blog h2 {
+  padding: 1em 0;
+}
+
+.blog p {
+  line-height: 2em;
+  color: #333;
+  padding: 0 4em;
+  padding-bottom: 5em;
+}
+
+.blog {
+  text-align: center;
 }

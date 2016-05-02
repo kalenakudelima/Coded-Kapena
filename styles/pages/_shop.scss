@@ -34,3 +34,20 @@
 .merchandise p a:hover {
     color: #ccc;
 }
+
+.shop {
+  padding: 10em 0 5em 0;
+  text-align:center;
+}
+
+.shop h2 {
+  padding-bottom:1em;
+}
+
+.shop img {
+  border: .5em solid #339999;
+}
+
+.shop img:hover {
+  border: .5em solid #333;
+}

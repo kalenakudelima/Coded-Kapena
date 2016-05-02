@@ -1,13 +1,13 @@
 #bio01 p {
     text-align: center;
-    padding: 0 15em 2em 15em;
+    padding: 1em 20em 2em 20em;
     border-bottom: 1px solid #333;
+    line-height: 1.5em;
 }
 
 #section02 h2 {
-    padding: 3em 0 0 0;
+    padding: 4em 0 0 0;
     text-align: center;
-    font-family: 'Raleway';
     color: #333;
 }
 
@@ -18,12 +18,10 @@
 #kellyboy h3, #kapena h3, #kalena h3, #lilo h3 {
     padding-top: 2em 0;
     font-size: 2.5em;
-    font-family: 'Raleway';
 }
 
 #kellyboy {
-    padding-top: 5em;
-    padding: 0 15em;
+    padding: 3em 17em;
     font-weight: normal;
     font-size: .85em;
 }
@@ -32,11 +30,12 @@
     padding-top: 1em;
     width: 30%;
     float: right;
+    padding-left: 1.5em;
 }
 
 #kapena {
     clear: right;
-    padding: 5em 15em;
+    padding: 5em 17em;
     font-weight: normal;
     font-size: .85em;
 }
@@ -44,11 +43,12 @@
 .kapena {
     width: 30%;
     float: left;
+    padding-right: 1.5em;
 }
 
 #kalena {
     clear: left;
-    padding: 5em 15em;
+    padding: 5em 17em;
     font-weight: normal;
     font-size: .85em;
 }
@@ -56,11 +56,12 @@
 .kalena {
     width: 30%;
     float: right;
+    padding-left: 1.5em;
 }
 
 #lilo {
     clear: right;
-    padding: 5em 15em;
+    padding: 5em 17em;
     font-weight: normal;
     font-size: .85em;
 }
@@ -68,6 +69,7 @@
 .lilo {
     width: 30%;
     float: left;
+    padding-right: 1.5em;
 }
 
 .size {
