@@ -113,7 +113,46 @@
     width: 30%;
 }
 
+.column.one-third-shirt {
+    float: left;
+    margin: 0 0 20px;
+    width: 30%;
+}
+
 .first {
   clear: both;
   padding-left: 0;
+}
+
+.shirt {
+  padding: 10em 0 30em 12em;
+}
+.shirt h3 {
+  text-align: center;
+}
+
+.related h5 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000
+}
+.related {
+  padding-bottom: 5em;
+}
+
+.related img {
+  padding-top: 1em;
+}
+
+.right {
+  padding-left: 5em;
+}
+
+.addtocart {
+  color: #fff;
+  background-color: #333;
+}
+
+.addtocart:hover {
+  color: #fff;
+  background-color: #339999; 
 }
