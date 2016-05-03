@@ -18,12 +18,25 @@
 
 
 .merchandise h2 {
-  padding-top:3em;
+  padding-top:5em;
+}
+
+.merchandise h3 {
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.merchandise img {
+  border: 4px solid #333;
+}
+
+.merchandise img:hover {
+  border: 4px solid #339999;
 }
 
 .merchandise {
     text-align: center;
-    padding-bottom: 3em;
+    padding-bottom: 60em;
 }
 
 .merchandise p a {
@@ -50,4 +63,57 @@
 
 .shop img:hover {
   border: .5em solid #333;
+}
+
+#music {
+    padding-top: 3em;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10em;
+}
+
+.catalog {
+    width: 75%;
+
+}
+
+#music li {
+    list-style: none;
+}
+
+#music h2 {
+    text-align: center;
+    padding-top:3em;
+}
+
+#music h3 {
+    font-size: 1.5em;
+    padding-bottom: .7em;
+}
+
+
+#music01 p {
+    float: left;
+    padding: 3em 10em 0 10em;
+    text-align: center;
+}
+
+#music h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.cdbaby {
+    width: 35%;
+}
+
+.column.one-third {
+    float: left;
+    margin: 0 0 20px;
+    width: 30%;
+}
+
+.first {
+  clear: both;
+  padding-left: 0;
 }
