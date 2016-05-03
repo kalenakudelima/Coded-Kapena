@@ -11,14 +11,15 @@ form {
 
 .forms h2 {
   text-align: center;
+  padding-bottom: .5em;
 }
 
 .forms div {
-  padding: .5em;
+  padding: .5em 0;
 }
 
 .forms {
-  padding: $section-padding;
+  padding: 9em 0;
 }
 
 .forms label {

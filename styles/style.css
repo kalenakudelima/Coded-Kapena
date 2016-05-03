@@ -16,14 +16,15 @@ form textarea {
 
 .forms h2 {
   text-align: center;
+  padding-bottom: .5em;
 }
 
 .forms div {
-  padding: .5em;
+  padding: .5em 0;
 }
 
 .forms {
-  padding: 6em 0;
+  padding: 9em 0;
 }
 
 .forms label {
@@ -133,13 +134,11 @@ body, p {
 h1 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: .2em;
 }
 
 h2 {
   font-family: 'Raleyway', sans-serif;
   text-transform: uppercase;
-  letter-spacing: .1em;
 }
 
 h3 {
@@ -291,7 +290,7 @@ header {
 }
 
 header h1 {
-  padding: .5em;
+  padding: .575em;
   margin-bottom: 0;
   float: left;
 }
@@ -439,7 +438,7 @@ footer {
 }
 
 .home {
-  padding-top: 6.9em;
+  padding-top: 7.45em;
   text-align: center;
   background-color: #000;
 }
@@ -447,7 +446,8 @@ footer {
 .home h2 {
   background-color: #000;
   color: #fff;
-  border: 5px solid #339999;
+  border-top: 5px solid #339999;
+  border-bottom: 5px solid #339999;
   padding: .8em;
   font-size: 1.8em;
 }
@@ -474,10 +474,27 @@ footer {
   font-size: 2.5em;
 }
 
+#kellyboy p, #kapena p, #kalena p, #lilo p {
+  font-size: 1em;
+}
+
+#kellyboy h4, #kapena h4, #kalena h4, #lilo h4 {
+  font-size: 1.2em;
+}
+
+#kellyboy h5 a, #kapena h5 a, #kalena h5 a, #lilo h5 a {
+  color: #999;
+}
+
+#kellyboy h5 a:hover, #kapena h5 a:hover, #kalena h5 a:hover, #lilo h5 a:hover {
+  color: #339999;
+}
+
 #kellyboy {
   padding: 3em 17em;
   font-weight: normal;
   font-size: .85em;
+  margin-top: 2em;
 }
 
 .kellyboy {
@@ -518,6 +535,7 @@ footer {
   padding: 5em 17em;
   font-weight: normal;
   font-size: .85em;
+  margin-bottom: 10em;
 }
 
 .lilo {
@@ -753,6 +771,7 @@ footer {
 .form-button {
   background-color: #333;
   width: 100%;
+  margin-top: 1em;
 }
 
 .form-button:hover {
