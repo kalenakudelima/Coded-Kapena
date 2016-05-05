@@ -452,6 +452,10 @@ footer {
   font-size: 1.8em;
 }
 
+.index header {
+  position: relative;
+}
+
 #bio01 p {
   text-align: center;
   padding: 1em 20em 2em 20em;
