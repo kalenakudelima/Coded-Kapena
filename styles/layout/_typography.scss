@@ -30,28 +30,24 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
-    margin-bottom: .5em;
+    margin-bottom: 0;
 }
 
 /* LAYOUT */
 
-body {
+body, p {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    color: #5c494f;
     font-size: 112.5%; /* Set the base to 18px */
 }
 
 h1 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: .2em;
 }
 
 h2 {
     font-family: 'Raleyway', sans-serif;
-    font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: .1em;
 }
 
 h3 {
