@@ -458,7 +458,7 @@ footer {
 
 #bio01 p {
   text-align: center;
-  padding: 1em 20em 2em 20em;
+  padding: 1em 20% 2em 20%;
   border-bottom: 1px solid #333;
   line-height: 1.5em;
 }
@@ -495,7 +495,7 @@ footer {
 }
 
 #kellyboy {
-  padding: 3em 17em;
+  padding: 3em 25%;
   font-weight: normal;
   font-size: .85em;
   margin-top: 2em;
@@ -510,7 +510,7 @@ footer {
 
 #kapena {
   clear: right;
-  padding: 5em 17em;
+  padding: 5em 25%;
   font-weight: normal;
   font-size: .85em;
 }
@@ -523,7 +523,7 @@ footer {
 
 #kalena {
   clear: left;
-  padding: 5em 17em;
+  padding: 5em 25%;
   font-weight: normal;
   font-size: .85em;
 }
@@ -536,7 +536,7 @@ footer {
 
 #lilo {
   clear: right;
-  padding: 5em 17em;
+  padding: 5em 25%;
   font-weight: normal;
   font-size: .85em;
   margin-bottom: 10em;
@@ -600,7 +600,12 @@ footer {
 }
 
 .blog h2 {
-  padding: 1em 0;
+  padding: 1em 0 0 0;
+}
+
+.blog h5 {
+  padding: .5em 0 2em 0;
+  font-weight: lighter;
 }
 
 .blog p {
@@ -608,6 +613,7 @@ footer {
   color: #333;
   padding: 0 4em;
   padding-bottom: 5em;
+  text-align: left;
 }
 
 .blog {
